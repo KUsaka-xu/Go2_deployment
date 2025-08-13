@@ -265,6 +265,7 @@ public:
     void Enter() override
     {
         rl.episode_length_buf = 0;
+        
 
         // read params from yaml
         rl.config_name = "robomimic/loco";
